@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 const Counter = () => {
-    const [inputNumber, setInputNumber] = useState(0)
-    const [answer, setAnswer] = useState(0)
+    const [inputNumber, setInputNumber] = useState(1)
+    const [answer, setAnswer] = useState(1)
 
     
     useEffect(() => {
